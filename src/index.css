@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background: #f3f4f6;
+    color: #333;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    padding-top: 20px; /* Add space at the top */
+}
+
+.AryaTel {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px; /* Add space below the AryaTel text */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit the width for better design */
+    width: 90%;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .start-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
